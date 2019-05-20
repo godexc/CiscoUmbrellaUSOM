@@ -2,7 +2,7 @@
 USOM (National SOC of Turkey) Integration with Cisco Umbrella as an Intelligence Source.
 
 # Requirements
-- Python
+- Python 3.x
 - Json, Requests and Time
 - You need to change customer_key= #YOUR CUSTOMER KEY CAN BE FOUND UNDER THE Policies -> Integrations " umbrella_usom.py
 
@@ -13,10 +13,12 @@ USOM (National SOC of Turkey) Integration with Cisco Umbrella as an Intelligence
 
 - Maximum 50 Calls Per minute, it might take a while before you finish the whole list. 
 
-- Call it using python umbrella_usom.py >> log.txt
+ - Domain checks are added in order to avoid multiple calls for the same domain.
+
+- Call it using python umbrella_usom.py or with >> output.txt
  
  # Feature Enchancements
  
- - Logger will be added.
+ - Logging will be added.
  
- - Domain checks will be added in order to avoid multiple calls for the same domain.
+

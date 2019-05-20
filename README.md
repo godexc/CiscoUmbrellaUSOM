@@ -16,6 +16,8 @@ USOM (National SOC of Turkey) Integration with Cisco Umbrella as an Intelligence
  - Domain checks are added in order to avoid multiple calls for the same domain.
 
 - Call it using python umbrella_usom.py or with >> output.txt
+
+- Try to bind it with a CRON or similar task to do it on a daily/weekly basis.
  
  # Feature Enchancements
  
